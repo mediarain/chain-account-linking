@@ -1,0 +1,19 @@
+Purpose: 
+An easy-to re-use system for making account linking sites
+- A login page that allows for entering some fields
+  - Email
+  - First/last name
+  - Phone number
+- Issues an access token to Alexa
+- An API for receiving all of the data we've got on the user, or 404 (determine if linked)
+- An API for triggering server-side actions
+  - e.g. sending an email or a text
+- A Plugin system
+  - email
+  - Twilio
+  - subscribe to newsletter
+- Custom views but mostly worked out already
+
+Philosophy
+- Meta programming over file-based configuration
+- Assumptions can be made, but not global assumptions. Always in a module

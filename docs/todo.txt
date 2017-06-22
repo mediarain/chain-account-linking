@@ -1,0 +1,20 @@
+==== WIP ====
+Content rendering pipeline
+  -The master gulp tries to run on each env
+  -Each project has it's own gulp :(
+  -Plugins register actions (which can be gulp under the covers), which are run on a master taskrunner :)
+
+Less renders automatically
+The post-back flow + OAuth
+
+=== NEXT STEPS ===
+-Asset rendering for themes
+-Content file filled in
+-API for getting values (how do I secure those?)
+-Tend to all of the todos
+-Create instructions
+  - Overview
+  - Adding your link
+  - Adding your own theme
+  - Adding your own plugin
+- Table auto-creation appears to error on the first time
